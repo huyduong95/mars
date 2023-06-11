@@ -1,0 +1,26 @@
+{
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --grep '@TC0303'",
+    "test:all": "npx codeceptjs run",
+    "report": "allure serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@codeceptjs/allure-legacy": "^1.0.2",
+    "@types/node": "^20.3.0",
+    "@wdio/allure-reporter": "^8.11.0",
+    "@wdio/cli": "^8.11.1",
+    "codeceptjs": "^3.4.1",
+    "playwright": "^1.35.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4"
+  }
+}

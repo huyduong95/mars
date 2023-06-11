@@ -1,0 +1,32 @@
+[
+    {
+        "text": "July",
+        "isAvailable": false,
+        "index": 1
+    },
+    {
+        "text": "December",
+        "isAvailable": false,
+        "index": 2
+    },
+    {
+        "text": "July (next year)",
+        "isAvailable": false,
+        "index": 3
+    },
+    {
+        "text": "December (next year)",
+        "isAvailable": false,
+        "index": 4
+    },
+    {
+        "text": "July (two years from now)",
+        "isAvailable": false,
+        "index": 5
+    },
+    {
+        "text": "December (two years from now)",
+        "isAvailable": true,
+        "index": 6
+    }
+]
